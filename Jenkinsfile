@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define environment variables
-        SRN = 'PES2UG21CS119'
+        SRN = 'PES2UG21CS107'
         // Additional code for readability, to be used in further stages
     }
 
@@ -36,7 +36,7 @@ pipeline {
                     // Deploy stage: Deployment steps
                     echo 'Deploying....!!'
                      //here insert below lines(red ones') to make the code with err
-                      sh 'exit 1'
+                      //sh 'exit 1'
                 }
             }
         }
